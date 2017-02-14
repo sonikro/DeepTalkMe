@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sonikro.deeptalkme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".framework.DeepTalkMe"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.layout.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.layout.HomeActivity" />
+        <activity
+            android:name=".activity.layout.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".activity.layout.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.layout.LoginActivity" />
+        </activity>
+        <activity android:name=".activity.layout.UpdateUserActivity" />
+        <activity
+            android:name=".activity.layout.ChatActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask" />
+
+        <service
+            android:name=".services.MessageReaderService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.layout.ContactsActivity"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

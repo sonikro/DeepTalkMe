@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/chat_menu_report"
+            android:icon="@drawable/ic_report_18_black"
+            android:title="@string/report_user"
+                />
+        <item
+            android:id="@+id/chat_menu_share"
+            android:icon="@drawable/ic_folder_shared_18_black"
+            android:title="@string/share_data" />
+        <item
+            android:id="@+id/chat_menu_ask"
+            android:icon="@drawable/ic_question_answer_18_black"
+            android:title="@string/ask_for_question" />
+        <item
+            android:id="@+id/chat_menu_leave"
+            android:icon="@drawable/ic_exit_to_app_18_black"
+            android:title="@string/leave_discussion" />
+</menu>

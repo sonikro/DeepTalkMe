@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">DeepTalkMe</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_discussion">Search Discussion</string>
+
+    <!-- Strings related to Input Errors -->
+    <string name="invalid_email">Invalid E-mail</string>
+    <string name="password_too_short">Password is too short (Minimum 4 digits)</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="title_activity_register">DeepTalkMe - Register</string>
+    <string name="home">Home</string>
+    <string name="my_settings">My Settings</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="username">User name</string>
+    <string name="subjects">Subjects</string>
+    <string name="languages">Languages</string>
+    <string name="save">Save Changes</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="select_languages">Select your Languages</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_subjects">Select your Subjects</string>
+    <string name="are_you_sure_exit">Are you sure you want to exit ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_request_discussion">RequestDiscussion</string>
+    <string name="select_one_language">Select one language</string>
+    <string name="message">Message</string>
+    <string name="confirm_leaving_discussion">Are you sure you want to leave the discussion ?</string>
+    <string name="leave_discussion">Leave Discussion</string>
+    <string name="ask_for_question">Ask for a question</string>
+    <string name="share_data">Share contact</string>
+    <string name="report_user">Report User</string>
+    <string name="request_new_password">Request new password</string>
+    <string name="claim">Claim</string>
+    <string name="sure_leave_discussion">Are you sure you want to leave the discussion ?</string>
+    <string name="sure_share_data">Are you sure you want to share your data ?</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+</resources>
